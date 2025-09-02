@@ -1,0 +1,119 @@
+---
+import MainLayout from "../layouts/main.astro";
+import img1 from "../imgs/img1.jpg";
+import img2 from "../imgs/img2.jpg";
+import img4 from "../imgs/img4.jpg";
+import img5 from "../imgs/img5.jpg";
+import img6 from "../imgs/img6.jpg";
+import img7 from "../imgs/img7.jpg";
+import img8 from "../imgs/img8.jpg";
+---
+
+<MainLayout title="Emily D'Silva">
+    <div class="group">
+        <p class="title">MIG Welding</p><p>
+            At my job as a manufacturing engineering co-op at Martinrea I got to
+            learn the fundamentals of MIG welding. I was able to get consistent
+            weld lines without any burn-through. As a final project I scuplted a
+            scorpion out of leftover nuts, bolts, screws, and washers.
+        </p>
+        <div class="contentbox">
+            <div class="column">
+                <img src={img1.src} class="imgp" />
+            </div>
+            <div class="column">
+                <img src={img2.src} class="imgp" />
+            </div>
+        </div>
+    </div><br />
+    <hr />
+    <div class="group">
+        <p class="title">Redesign of ejection system</p>
+        <div class="column">
+            <p>
+                While working at Martinrea I got to take on the project of
+                redesigning the part ejection systems for 9 different assembly
+                substations. The one of the issues I noticed was that the spring
+                that kept the catcher plate horizontal had snapped and coiled
+                around itself making it nearly useless (shown in the first
+                picture). Because of this the plate would often not correctly
+                return to the home position or the part would not be removed
+                from the pins. In both cases an operator would have to correct
+                the error which increased cycle time and decreased produced
+                parts. The ejector systems also caused almost 160 minutes of
+                downtime over a 6 month period.
+            </p>
+            <p>
+                The solution to these issues was to replace the mechanical
+                spring with a long-life gas spring (shown in the second
+                picture). This made the part ejection smoother, more reliable,
+                and more durable. I designed a new mounting block for the bottom
+                of the spring and modified the design of the bracket at the top
+                to fit the spring attachment. I then created engineering drawing
+                of the parts and communicatedd with the techs to make them.
+                While the in house fabrication process was underway, I created a
+                bill of materials and order the springs and bushings. I then got
+                to install the new system into the substations and run tests
+                until I was satisfied with the process.
+            </p>
+        </div>
+        <div class="contentbox">
+            <div class="column">
+                <img src={img4.src} class="imgp" />
+            </div>
+
+            <div class="column">
+                <img src={img5.src} class="imgp" />
+            </div>
+        </div>
+    </div><br />
+    <hr />
+    <div class="group">
+        <p class="title">Safety bracket</p>
+        <div class="column">
+            <p>
+                I created a bracket that was installed on a part dropoff chute.
+                The edges of the chute were not high enough and parts would fall
+                on the floor which stopped the machine cycle and was a major
+                saftey hazard. I designed the bracket using the sheet metal
+                features of SolidWorks and added an additional rubber sheet on
+                the side to cushion the impact. I learned a lot about the
+                machine shop while making it and I got to use tools such as a
+                plasma cutter, band saw, hydraulic press, and drill press.
+            </p>
+        </div>
+        <div class="contentbox">
+            <div class="column">
+                <img src={img6.src} class="imgp" />
+            </div>
+        </div>
+    </div><br />
+    <hr />
+    <div class="group">
+        <p class="title">Stud Feeder Detection Redesign</p>
+        <div class="column">
+            <p>
+                The inductive sensor shown in the first picture was not reliable
+                enough and could easily be bent out of place. This caused the
+                feeder bowl to keep spinning and dispensing more studs causing a
+                mess and a waste of resources. To correct this I decided to
+                implement a laser sensor instead. I designed a bracket in
+                SolidWorks and then converted it to a .stl file and 3D printed
+                it. The design used the same mounting position as the inductive
+                sensor so the installation process would not cause any downtime
+                and would save costs. This design was used across 18 DAS (Drawn
+                Arc Stud) units.
+            </p>
+        </div>
+        <div class="contentbox">
+            <div class="column">
+                <img src={img7.src} class="imgp" />
+            </div>
+
+            <div class="column">
+                <img src={img8.src} class="imgp" />
+            </div>
+        </div>
+    </div><br />
+    <hr /><br /><br />
+</MainLayout>
