@@ -1,6 +1,6 @@
 ---
 import MainLayout from "../layouts/main.astro";
-import ImgLoad from "../components/imgload.astro"
+import ImgLoad from "../components/imgload.astro";
 import img11 from "../imgs/img11.jpg";
 import img12 from "../imgs/img12.jpg";
 import img13 from "../imgs/img13.jpg";
@@ -23,13 +23,13 @@ import img24 from "../imgs/img24.jpg";
         <p>
             In my free time I love playing boardgames with my friends and
             family. One of my favourites is Ark Nova, a complex zoo building
-            game that gets competitive very quickly. I also really enjoy
-            playing Root, which is a combative woodland game where each player
-            gets entirely different rules, playstyles, and ways to get points.
+            game that gets competitive very quickly. I also really enjoy playing
+            Root, which is a combative woodland game where each player gets
+            entirely different rules, playstyles, and ways to get points.
         </p>
-        <br>
+        <br />
     </div>
-    <hr>
+    <hr />
     <div class="group">
         <p class="title">Photography</p>
         <p>
@@ -37,58 +37,34 @@ import img24 from "../imgs/img24.jpg";
             depending on the time of year) and black and white photos because of
             the definition and contrasts that appear when all the colour is
             stripped away. I also have done a bit of film camera shooting and
-            darkroom printing, which is something that I hope to get more experience with in the future.
+            darkroom printing, which is something that I hope to get more
+            experience with in the future.
         </p>
         <div class="group">
             <h2>B&W</h2>
-
-            <ImgLoad src={img11} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img12} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img13} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img16} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img15} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img14} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img17} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
+            <div class="contentbox">
+                <ImgLoad src={img11} width={300} alt="" />
+                <ImgLoad src={img12} width={300} alt="" />
+                <ImgLoad src={img13} width={300} alt="" />
+                <ImgLoad src={img16} width={300} alt="" />
+                <ImgLoad src={img15} width={300} alt="" />
+                <ImgLoad src={img14} width={300} alt="" />
+                <ImgLoad src={img17} width={300} alt="" />
+            </div>
         </div>
     </div>
     <br />
-    <hr style="width:40vw;">
+    <hr style="width:40vw;" />
     <div class="group">
-        <div class="group">
-            <h2>Golden Hour</h2>
-            <ImgLoad src={img18} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img24} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img23} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img21} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img19} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img20} width={300} alt=""/>
-            <!-- </div>
-                <div class ="column"> -->
-            <ImgLoad src={img22} width={300} alt=""/>
+        <h2>Golden Hour</h2>
+        <div class="contentbox">
+            <ImgLoad src={img18} width={300} alt="" />
+            <ImgLoad src={img24} width={300} alt="" />
+            <ImgLoad src={img23} width={300} alt="" />
+            <ImgLoad src={img21} width={300} alt="" />
+            <ImgLoad src={img19} width={300} alt="" />
+            <ImgLoad src={img20} width={300} alt="" />
+            <ImgLoad src={img22} width={300} alt="" />
         </div>
     </div>
     <hr />

@@ -48,11 +48,16 @@ a:hover {
 .contentbox {
 	display: flex;
 	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 5pt;
 }
 
-.column {
-	margin: auto;
-	/* text-align: center; */
+
+@media screen and (max-width: 600px){
+	.contentbox{
+		flex-direction: column;
+	}
 }
 
 hr {
