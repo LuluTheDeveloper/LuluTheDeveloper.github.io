@@ -1,9 +1,10 @@
 body {
-	background-color: rgb(250, 252, 252);
+	background-color: rgb(20, 20, 20);
 	font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 	margin-top: 5vh;
 	text-align: center;
 	vertical-align: text-top;
+	color: rgb(245, 245, 255);
 }
 
 a {
@@ -61,7 +62,7 @@ a:hover {
 }
 
 hr {
-	color: rgb(96, 96, 208);
-	border-color: rgb(96, 96, 208);
+	color: rgb(0, 0, 0);
+	border-color: rgb(135, 71, 10);
 	width: 60vw;
 }
